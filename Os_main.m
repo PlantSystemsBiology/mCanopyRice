@@ -28,7 +28,7 @@ M_canopy = Os_canopy(paramMatrix1);
 
 % output to file
 
- writematrix(M_canopy,canopy3dmodelFilename,'Delimiter','tab'); %,'precision', '%.2f'
+writematrix(M_canopy,canopy3dmodelFilename,'Delimiter','tab'); %,'precision', '%.2f'
 
 %% draw a canopy figure
  figure;

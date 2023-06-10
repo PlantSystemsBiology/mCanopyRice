@@ -70,8 +70,8 @@ Chl_CONC = 317; % unit: umol.m-2 leaf area
 global STEP_X STEP_Y ROW_NUM COL_NUM;
 STEP_X = 20; % row distance of canopy, in the x direction  行距离，单位cm，这个是输入参数，用户可调节。
 STEP_Y = 20; % column distance, y direction  列距离，单位cm，这个是输入参数，用户可调节。
-ROW_NUM = 7; % row number of canopy 行数，即构建几行水稻，这个是输入参数，用户可调节。
-COL_NUM = 7; % col number 列数。这个是输入参数，用户可调节。
+ROW_NUM = 1; % row number of canopy 行数，即构建几行水稻，这个是输入参数，用户可调节。
+COL_NUM = 1; % col number 列数。这个是输入参数，用户可调节。
 %构建的水稻的冠层(canopy)为num_row行，num_col列的一块方田地。这里每一株水稻的输入参数是同一个数据文件。但是每一株水稻的构建过程
 %中包括了一些随机扰动。
 

@@ -5,8 +5,8 @@ function virtualCanopy(canopyModel_acceptor_file, canopyModel_donor_file, traitI
 % traitID is one of these IDs: 'TLN','TN', 'LN', 'SH'，'LL', 'LW', 'LC',
 % 'LA', 'LS'. % the TLN is total leaf number
 
-modelA = readmatrix(strcat('M\',canopyModel_acceptor_file));
-modelB = readmatrix(strcat('M\',canopyModel_donor_file));
+modelA = readmatrix(canopyModel_acceptor_file);
+modelB = readmatrix(canopyModel_donor_file);
 col = 8;
 modelA_with_B_trait = zeros(0,col);
 
@@ -133,7 +133,6 @@ for plantId = 1:9 % for every plant
                 modelA(modelA(:,PlantID_ind)==plantId & modelA(:,TillerID_ind)==i & modelA(:,OrganID_ind)==j, targetTrait_ind) = ...
                     modelB(modelB(:,PlantID_ind)==plantId & modelB(:,TillerID_ind)==indexVector(i) & modelB(:,OrganID_ind)==indexVector2(j), targetTrait_ind);
 
-                
             end
 
             % when it is 'SH', adjust leaf base height for modelA
@@ -191,7 +190,7 @@ else
     modelA_with_B_trait = modelA;
 end
 
-writematrix(modelA_with_B_trait,strcat('M\',outputfilename));
+writematrix(modelA_with_B_trait,outputfilename);
 
 end
 
