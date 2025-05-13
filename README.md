@@ -87,13 +87,13 @@ mCanopyRice/COV_Calculation/0830:
 jb69: JP69 with CAP1/CAP1 genotype. 
 jy5b: JY5B with cap1/cap1 genotype. 
 
-mCanopyRice/COV_Calculation/0904:
+mCanopyRice/COV_Calculation/0904: 
 
 WYG-DCA1: WYG with CAP1/CAP1 genotype. 
 WYG-XCA1: WYG with cap1/cap1 genotype. 
 F1: WYG with CAP1/cap1 genotype. 
 
-mCanopyRice/COV_Calculation/0906:
+mCanopyRice/COV_Calculation/0906: 
 
 75aa: cap1-75 homozygote genotype. 
 75aa-F1: cap1-75/CAP1 genotype. 
@@ -104,18 +104,17 @@ fon4DCA1: WYJ-fon4/fon4-CAP1/CAP1 genotype.
 fon4F1: WYJ-fon4/fon4-CAP1/cap1 genotype. 
 fon4XCA1: WYJ-fon4/fon4-cap1/cap1 genotype. 
 
-mCanopyRice/COV_Calculation/0913:
+mCanopyRice/COV_Calculation/0913: 
 
-fon4ca1: WYJ-fon4/fon4-cap1/cap1 genotype. 
 JYY69: JYY69 with CAP1/cap1 genotype. 
 
-mCanopyRice/COV_Calculation/wheat_1026:
+mCanopyRice/COV_Calculation/wheat_1026: 
 
 abd-chun: ABD homozygote. 
 abd-za: ABD heterozygote. 
 wt: the wide type (WT). 
 
-mCanopyRice/COV_Calculation/wheat_1129:
+mCanopyRice/COV_Calculation/wheat_1129: 
 
 abd-chunhe: ABD homozygote. 
 abd-zahe: ABD heterozygote. 
@@ -135,7 +134,5 @@ mCanopyRice/CanopyModel_RIL_population/M:
 
 Plant architectural parameter dataset measured, including leaf base height, leaf length, leaf width, leaf angle, horizontal distance, and vertical height of the leaf tip. The leaf curvature was calculated with code from /leafCurvature.
 
-mCanopyRice/CanopyModel_RIL_population/CM:
-
-Output directory, 3D canopy model files.
+mCanopyRice/CanopyModel_RIL_population/CM：Output directory, 3D canopy model files.
 
