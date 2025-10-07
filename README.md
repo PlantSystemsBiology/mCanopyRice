@@ -3,6 +3,9 @@
 ## mCanopyRice/COV_Calculation
 3D point cloud data and code for COV calculation.
 
+## mCanopyRice/CanopyModel_COV_dissection
+Source code for COV dissection analysis.
+
 ## mCanopyRice/CanopyModel_JYY
 Source code of the 3D canopy model of rice used for identifying key features contributing to canopy photosynthesis in the F1 hybrid compared to parents.
 
@@ -119,6 +122,10 @@ mCanopyRice/COV_Calculation/wheat_1129:
 abd-chunhe: ABD homozygote. 
 abd-zahe: ABD heterozygote. 
 wt: the wide type (WT). 
+
+mCanopyRice/COV_Calculation/2025:
+
+The point cloud data for COV calculation in 2025. 
 
 mCanopyRice/CanopyModel_RIL_population/constructRIL.m: the source code for constructing canopy model and calculating COV for the RIL population. 
 
